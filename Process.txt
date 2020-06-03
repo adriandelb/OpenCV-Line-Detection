@@ -1,0 +1,4 @@
+1. When a picture is passed it will detect the line
+2. Implement the camera using an image capturing devive
+3. Implement the algo with video
+4. Implement the algo + camera with the robot
