@@ -6,6 +6,6 @@ Goal: The program should be able to recognize a black line with a background of 
 Result: Achieved basic photo and video anaylsis of image. 
 
 **Unit 2: Identify the line**
-Goal: When givene a line the program should be able to draw a rectangle around the line.
+Goal: When given a line the program should be able to draw a rectangle around the line.
 Result: *In progress*
 
