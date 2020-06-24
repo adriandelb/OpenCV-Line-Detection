@@ -7,5 +7,9 @@ Result: Achieved basic photo and video anaylsis of image.
 
 **Unit 2: Identify the line**
 Goal: When given a line the program should be able to draw a rectangle around the line.
-Result: *In progress*
+Result: Program is able to draw a rectangle using the region of interest 
+
+**Unit 3: Corrective measures**
+Goal: When a line is not parallel to the image it will display an offset angle
+Result: *In progress* 
 
