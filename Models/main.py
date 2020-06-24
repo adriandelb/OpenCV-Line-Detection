@@ -1,4 +1,5 @@
 import cv2 as cv
+import os 
 import numpy as np
 import matplotlib.pyplot as plt
 import time
@@ -27,8 +28,8 @@ def line_detection(cropped,frame):
 
 
 ####################################################################################################
-
-cap = cv.VideoCapture('video2.mov')
+path = 'C://users/adelbosque/Documents/Assignments/OpenCV-Line-Detection/videos/video2.mov'
+cap = cv.VideoCapture(path)
 while cap.isOpened():    
     ret, frame = cap.read()
     cropped = frame[100:700, 1800:1920]
@@ -42,7 +43,6 @@ while cap.isOpened():
     
     if len(contours_blk) > 0:
         blackbox = cv.minAreaRect(contours_blk[0])
-        print(contours_blk[0])
         (x_min, y_min), (w_min, h_min), ang = blackbox
         if ang < -45 :
             ang = 90 + ang
