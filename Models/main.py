@@ -18,7 +18,6 @@ def line_detection(cropped,frame):
 
     thresh = cv.adaptiveThreshold(lineId, 255, cv.ADAPTIVE_THRESH_GAUSSIAN_C, cv.THRESH_BINARY_INV, 17,2)
    
-
     contours_blk, hierarchy_blk = cv.findContours(thresh, cv.RETR_TREE, cv.CHAIN_APPROX_NONE)
     drawn = cv.drawContours(cropped,contours_blk,-1,(0,255,0), 2)
     return contours_blk, drawn
