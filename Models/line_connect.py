@@ -31,7 +31,7 @@ def click_event(event, x, y, flags,params):
 
 #img = np.zeros((512,512, 3), np.uint8)
 
-img = cv.imread("picture.jpg")
+img = cv.imread("image.jpg")
 #img = cv.resize(ims, (500,500))
 cv.imshow('image', img)
 points = []
